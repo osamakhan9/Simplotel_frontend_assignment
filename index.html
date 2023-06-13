@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css"/>
+
+<!-- Navbar and main css add  -->
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<!------------ Navbar  ----------------->
+<div class="topnav" id="myTopnav">
+	<div class="nav-1">
+		<a href="#home">Home</a>
+		<a href="#order">Order</a>
+		<a href="#food">Food</a>
+		<a href="#restaurant">Restaurant</a>
+		<a href="#testimonials">Testimonials</a>
+		<a href="#contact">Contact Us</a>
+	</div>
+
+	<div>
+		<div></div>
+		<a id="last" href='#call'>
+			<i class="fa-regular fa-circle-phone"></i>
+		</a>
+		
+		<a id="last" href="#cart">
+			<i class="fa-solid fa-cart-shopping"></i>
+		</a>
+	</div>
+	
+	<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<!-- --------------------------Navbar end-------------------------------------- -->
+
+
+<!--------------- Main section -------------->
+
+<div id="container">
+
+	<div class="background-image">
+        
+		<div class="heading">
+           
+			<div id="heading1">
+				<h1>LOREM IPSUM</h1>
+		        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat sapiente saepe, delectus nulla maxime alias adipisci explicabo. Quam voluptatem optio quibusdam, fugiat maiores, nostrum repellat aut inventore, illo doloribus fuga?</p>
+			</div>
+
+		</div>
+		
+	</div>
+
+	<div class="grid">
+
+		<div class="Order">
+			<h1>Order Now</h1>
+
+			<div class="Order_grid">
+				<div class="grid_content">
+					<div>
+						<img src="./image/img4.jpg" alt="">
+					</div>
+					<h2>BURGER</h2>
+					<p>Lorem Ipsum has been the industry's standard dummy text</p>
+				</div>
+
+				<div class="grid_content">
+					<div>
+						<img src="./image/img2.jpg" alt="">
+					</div>
+					<h2>PIZZA</h2>
+					<p>Lorem Ipsum has been the industry's standard dummy text</p>
+				</div>
+
+				<div class="grid_content">
+					<div>
+						<img src="./image/img3.jpg" alt="">
+					</div>
+					<h2>PASTA</h2>
+					<p>Lorem Ipsum has been the industry's standard dummy text</p>
+				</div>
+
+			</div>
+
+			<button>Order</button>
+		</div>
+	</div>
+
+</div>
+
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+</html>
